@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button"; // Import Button component
 export default function JoeBytesHome() {
   useEffect(() => {
     // This script is for adding the Tidio chatbot
-    const script = document.createElement("script");
-    script.src = "//code.tidio.co/m8h58rif2olt6ajcbxfts3y4ntxuhym8.js"; 
-    script.async = true;
-    document.body.appendChild(script);
+   // const script = document.createElement("script");
+   // script.src = "//code.tidio.co/m8h58rif2olt6ajcbxfts3y4ntxuhym8.js"; 
+   // script.async = true;
+  //  document.body.appendChild(script);                                                     fix once tested
   }, []); // Empty dependency array means it runs only once when the component mounts
 
   return (
