@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'; // Import React and useEffect
-import './App.css'; // Import the CSS file
-
 import { Card, CardContent } from "@/components/ui/card"; // Import Card components
 import { Button } from "@/components/ui/button"; // Import Button component
 
